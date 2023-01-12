@@ -1,0 +1,17 @@
+.destacados{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+    background-color:rgb(124, 213, 216);
+    min-height:360px;
+    border-radius:15px;
+    box-shadow:1px 3px 5px rgba(0,0,0,.07);
+    transition:.3s;
+    &:hover{
+        box-shadow:0px 0px 16px 3px rgba(23, 255, 73, 0.7);
+        }
+        & a{
+            text-decoration: none;
+        }
+    }

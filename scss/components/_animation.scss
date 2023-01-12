@@ -1,0 +1,21 @@
+@keyframes mov {
+    from {
+        background-position:  left;
+    }
+  
+    to {
+        background-position: right ;
+    }
+  }
+
+  @keyframes movimiento{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(40px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+  }

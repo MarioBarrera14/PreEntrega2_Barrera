@@ -1,0 +1,48 @@
+$padding-container: 100px 0;
+$color-title: #000000;
+
+.knowledge {
+    background-color: #e5e5f7;
+    background-image: radial-gradient(#5d63e7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0, 10px 10px;
+    overflow: hidden;
+    &__container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+        align-items: center;
+      }
+      
+      &__picture{
+        max-width: 500px;
+      }
+      
+      &__paragraph{
+        line-height: 1.7;
+        margin-bottom: 15px;
+        color: #000;
+      }
+      
+      &__img{
+        width: 100%;
+        display: block;
+      }
+      & .cta {
+        display: inline-block;
+        background-color: #2091F9;
+        justify-self: center;
+        color: #fff;
+        text-decoration: none;
+        padding: 13px 30px;
+        border-radius: 32px;
+        
+      }
+  }
+  .container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: var($padding-container);
+  }

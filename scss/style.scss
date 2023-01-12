@@ -1,0 +1,19 @@
+/*Base*/
+@import './base/resets';
+@import './base/base';
+
+/*Layout*/
+@import './layout/footer';
+@import './layout/inicio';
+@import './layout/login';
+
+/*components*/
+@import './components/knowledge';
+@import './components/banner';
+@import './components/animation';
+@import './components/ref';
+@import './components/product';
+
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+

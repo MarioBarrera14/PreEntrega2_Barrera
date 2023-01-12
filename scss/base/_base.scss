@@ -1,0 +1,28 @@
+body{
+    background-image: url(../image/circulo.jpg);
+    background-attachment:fixed;
+    background-size: 200% 100%;
+    min-height: 100vh;
+    animation: mov 25s infinite linear alternate;
+  }
+
+  .bg{
+    background-image: url(../image/r.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    .btn__comprar{
+      display:block;
+      padding:5px 10px;
+      background:linear-gradient(#a3be70, #2d8a20);
+      border-color:#010102;
+      color:#fff;
+      border-radius:10px;
+      font-size:15px;
+      font-weight:400;
+      transition-duration:.2s;
+      }
+      
+     

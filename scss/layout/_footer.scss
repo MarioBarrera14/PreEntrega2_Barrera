@@ -1,0 +1,28 @@
+.pie-pagina{
+    background-color: #0a141d;
+    margin-top:50px;
+    min-height: calc(100vh - 100px - 300px);
+    & img{
+      width: 150px;
+    }
+      & h2{
+        color: rgb(255, 255, 255);
+        margin-bottom: 10px;
+        font-size: 25px;
+      }
+  }
+  .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 15px;
+    height: 15px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+    &:hover{
+      color: #44C767;
+    }
+  }
